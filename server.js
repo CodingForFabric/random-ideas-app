@@ -7,6 +7,8 @@ const connectDB = require('./config/db');
 
 connectDB();
 
+console.log(process.env.MONGO_URI);
+
 const app = express();
 
 // Static Folder
